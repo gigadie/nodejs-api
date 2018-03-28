@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "Simple nodeJS api with express and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "mongodb": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
